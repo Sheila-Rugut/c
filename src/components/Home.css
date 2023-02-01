@@ -1,0 +1,33 @@
+
+  h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color:   rgb(12, 113, 113);
+    font-style: oblique;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* landing page */
+  .landing-page {
+    width:100%;
+    height:600px;
+    background-color: #ddd;
+  }
+  .hero{
+    background-image: url("/src/assets/hero.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    padding-top: 500px;
+  }
+  .hero p{
+    font-size: 30px;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    padding-top: 400px;
+    transform: translate(-50%, -50%);
+  }
