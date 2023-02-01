@@ -1,0 +1,44 @@
+  .nav{
+  background-color: rgba(95, 25, 25, 0.573);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  width: 100%;
+  position: sticky;
+}
+.nav-contents {
+  color: white;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  }
+  .nav-logo img{
+  width: 150px;
+  height: 150px;
+  padding-left: 200px;
+  }
+   h1{
+    font-size: 2rem;
+    color: rgb(9, 76, 76);
+    font-style: inherit;
+  }
+  h1 span{
+    color: rgba(95, 25, 25, 0.573);
+  }
+  nav ul {
+    display: flex;
+    float: left;
+    list-style: none;
+  }
+  nav ul li a {
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    align-items: center;
+   
+  }
+  nav ul li a:hover {
+    background-color: rgb(12, 113, 113);
+  }
