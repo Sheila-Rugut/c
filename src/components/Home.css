@@ -1,33 +1,137 @@
 
-  h2{
-    font-size: 2rem;
-    font-weight: bold;
-    color:   rgb(12, 113, 113);
-    font-style: oblique;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  /* landing page */
-  .landing-page {
-    width:100%;
-    height:600px;
-    background-color: #ddd;
-  }
-  .hero{
-    background-image: url("/src/assets/hero.jpg");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
-    padding-top: 500px;
-  }
-  .hero p{
-    font-size: 30px;
-    justify-content: center;
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    padding-top: 400px;
-    transform: translate(-50%, -50%);
-  }
+.landing-page {
+  background-color: #F8F8F8;
+  margin-top: auto;
+  padding: 0;
+}
+.hero {
+  background: url("https://images.pexels.com/photos/2398220/pexels-photo-2398220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  image-rendering: -webkit-optimize-contrast;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.hero-content {
+  margin-bottom: 350px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 100px;
+}
+.hero-content button {
+  background-color: rgb(12, 113, 113);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer
+}
+.hero-content button:hover {
+  background-color: whitesmoke;
+  color: black;
+  border: 1px solid black;
+}
+.section-title {
+  color: rgb(12, 113, 113);
+  font-size: 26px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.section-description {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.destination-card,
+.gear-card {
+  background-color: #fff;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.destination-card__image,
+.gear-card__image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.destination-card__title,
+.gear-card__title {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.destination-card__description,
+.gear-card__description {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.destination-card__btn,
+.gear-card__btn{
+  background-color: rgb(12, 113, 113);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  
+}
+.destination-card__btn:hover,
+.gear-card__btn:hover{
+background-color: whitesmoke;
+color: black;
+ border: 0.01px solid black;
+}
+.destination-cards,
+.gear-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.featured-gear {
+  padding: 80px 0;
+}
+
+.featured-gear-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .gear-card__cta {
+  background-color: rgb(12, 113, 113);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.gear-card__cta:hover {
+  background-color: whitesmoke;
+  color: black;
+} */
