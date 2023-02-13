@@ -1,0 +1,31 @@
+{
+  "campgrounds": [  {    "id": 1,    "name": "Rapids Camp, Sagana",    "location": "Makutano Sagana Rd Riandira, Sagana",    "description": "Rapids Camp Sagana ,is a white water rafting centre ,Campers paradise, and tram building site in Kenya",    "image_url": "https://uzamart.com/wp-content/uploads/2021/01/camping-rapids-camp-1536x1024-1-1024x683.jpg",    "activities": ["kayaking", "fishing", "camping"],
+    "facilities": ["restrooms", "campers lounge", "outdoor eating areas"],
+    "price_per_night": 2000,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Hell’s Gate National Park",
+    "location": "Oregon",
+    "description": "Mt. Hood National Forest is a popular recreation destination, offering opportunities for hiking, camping, fishing, skiing, and snowboarding.",
+    "image_url": "https://uzamart.com/wp-content/uploads/2021/01/Camp-Carnellys-1024x683.jpg",
+    "activities": ["hiking", "camping", "fishing"],
+    "facilities": ["restrooms", "picnic tables", "fire pits"],
+    "price_per_night": 25,
+    "rating": 4.3
+  },
+  {
+    "id": 3,
+    "name": "Joshua Tree National Park",
+    "location": "California",
+    "description": "Joshua Tree National Park is known for its unique rock formations and the namesake Joshua trees. The park offers a range of outdoor activities, including hiking, rock climbing, and stargazing.",
+    "image_url": "https://uzamart.com/wp-content/uploads/2021/01/Camp-Carnellys-1024x683.jpg",
+    "activities": ["hiking", "rock climbing", "camping"],
+    "facilities": ["restrooms", "picnic tables", "fire pits"],
+    "price_per_night": 20,
+    "rating": 4.7
+  }
+]
+
+}
