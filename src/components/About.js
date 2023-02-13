@@ -9,6 +9,7 @@ function About() {
         <div className="content-section">
           <div className="title"></div>
           <div className="content">
+            <h1>About Us</h1>
             <p>
               {" "}
               Welcome to Camp haven, your ultimate camping destination!

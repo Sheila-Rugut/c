@@ -1,7 +1,7 @@
 .about {
     width:100%;
-    height:600px;
-    background-color: #ddd;
+    height:700px;
+    background-color: #F8F8F8;
    }
   .container {
     width:auto;
@@ -35,7 +35,7 @@
   }
   .image-section img {
     width: 100%;
-    height: 90%;
+    height: 100%;
   }
   .content-section button{
     background-color:  rgb(12, 113, 113);
