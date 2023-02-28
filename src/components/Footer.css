@@ -29,7 +29,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 .socials i {
   display: flex;
@@ -44,7 +44,6 @@
 }
 .social-links i {
   text-decoration: none;
-  width: 10px;
   padding-right: 15px;
   margin-left: 40px;
   font-size: 25px;
