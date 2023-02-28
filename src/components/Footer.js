@@ -22,13 +22,13 @@ function Footer() {
               <Link to="/contact">Contact Us</Link>
             </ul>
           </div>
-          <div className="col">
+          {/* <div className="col">
             <ul>
               <li>hi</li>
               <li>Nairobi, Kenya</li>
               <li>hi you</li>
             </ul>
-          </div>
+          </div> */}
           <div className="socials">
             <ul>
               <li>
