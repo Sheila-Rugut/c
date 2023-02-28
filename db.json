@@ -1,31 +1,112 @@
 {
-  "campgrounds": [  {    "id": 1,    "name": "Rapids Camp, Sagana",    "location": "Makutano Sagana Rd Riandira, Sagana",    "description": "Rapids Camp Sagana ,is a white water rafting centre ,Campers paradise, and tram building site in Kenya",    "image_url": "https://uzamart.com/wp-content/uploads/2021/01/camping-rapids-camp-1536x1024-1-1024x683.jpg",    "activities": ["kayaking", "fishing", "camping"],
-    "facilities": ["restrooms", "campers lounge", "outdoor eating areas"],
-    "price_per_night": 2000,
-    "rating": 4.5
-  },
-  {
-    "id": 2,
-    "name": "Hell’s Gate National Park",
-    "location": "Oregon",
-    "description": "Mt. Hood National Forest is a popular recreation destination, offering opportunities for hiking, camping, fishing, skiing, and snowboarding.",
-    "image_url": "https://uzamart.com/wp-content/uploads/2021/01/Camp-Carnellys-1024x683.jpg",
-    "activities": ["hiking", "camping", "fishing"],
-    "facilities": ["restrooms", "picnic tables", "fire pits"],
-    "price_per_night": 25,
-    "rating": 4.3
-  },
-  {
-    "id": 3,
-    "name": "Joshua Tree National Park",
-    "location": "California",
-    "description": "Joshua Tree National Park is known for its unique rock formations and the namesake Joshua trees. The park offers a range of outdoor activities, including hiking, rock climbing, and stargazing.",
-    "image_url": "https://uzamart.com/wp-content/uploads/2021/01/Camp-Carnellys-1024x683.jpg",
-    "activities": ["hiking", "rock climbing", "camping"],
-    "facilities": ["restrooms", "picnic tables", "fire pits"],
-    "price_per_night": 20,
-    "rating": 4.7
-  }
-]
-
+  "campgrounds": [
+    {
+      "id": 1,
+      "name": "Maasai Mara National Reserve",
+      "location": "Narok",
+      "description": "Maasai Mara National Reserve is a Kenyan savannah wilderness area. It's famous for the annual wildebeest migration and is home to lions, cheetahs, elephants, and other wildlife.",
+      "image_url": "https://images.unsplash.com/photo-1517503462743-f87ba95a8cae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+      "activities": ["game drives", "birdwatching", "hot air balloon rides"],
+      "facilities": ["restrooms", "picnic areas", "lodging"],
+      "price_per_night": 5000,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "name": "Hell’s Gate Gorge",
+      "location": "Nakuru",
+      "description": "Located in the Hell's Gate National Park, this campsite offers stunning views of the gorge and surrounding landscapes. Activities like hiking, rock climbing, and biking are available.",
+      "image_url": "https://www.roadtripafrica.com/media/2439/carnelleys-camp-small.jpg?%20alt=",
+      "activities": ["hiking", "camping", "rock climbing"],
+      "facilities": ["restrooms", "picnic tables", "fire pits"],
+      "price_per_night": 2500,
+      "rating": 4.3
+    },
+    {
+      "id": 3,
+      "name": "Kilima Safari camp",
+      "location": "Kajiado",
+      "description": "Situated in Amboseli National Park, Kilima offers spacious accommodation with views of the animal water pools and the Mount Kilimanjaro. Guided game drives and bush walks are offered.",
+      "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/93682462.jpg?k=b6bb75bea52500837456d30248c6393f1d476d4ebe35303f1e9ebebbfb143dc1&o=&hp=1",
+      "activities": ["game drives", "birdwatching", "photography"],
+      "facilities": ["room service", "outdoor swimming pools", "bar"],
+      "price_per_night": 6000,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "name": "Mbweha Camp Lake Nakuru",
+      "location": "Nakuru",
+      "description": "Mbweha Camp Lake Nakuru is located in the Congreve Conservancy, bordering Lake Nakuru National Park on the south eastern boundary. The property offers a swimming pool, restaurant and bar on site.",
+      "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/192449510.jpg?k=12d73e8fa75ff431c5831f659d0891950e5aedbabd6376b77bc25ee033b90793&o=&hp=1",
+      "activities": ["game drives", "birdwatching", "photography"],
+      "facilities": ["lodging", "picnic areas", "restrooms"],
+      "price_per_night": 4500,
+      "rating": 4.4
+    },
+    {
+      "id": 5,
+      "name": "Fisherman's Camp",
+      "location": "Naivasha",
+      "description": "Set on the shores of Lake Naivasha, Fisherman's Camp offers stunning views and a variety of water activities like fishing and boat rides.",
+      "image_url": "https://fishermanscamp.com/wp-content/uploads/2018/12/DSC05639.jpg",
+      "activities": ["fishing", "boat rides", "bird watching"],
+      "facilities": [
+        "restrooms",
+        "picnic tables",
+        "fire pits",
+        "barbecue grills"
+      ],
+      "price_per_night": 2000,
+      "rating": 4.6
+    },
+    {
+      "id": 6,
+      "name": "Kiboko Luxury Camp",
+      "location": "Masai Mara",
+      "description": "Experience the thrill of the wild at Kiboko Luxury Camp, situated in the heart of the Maasai Mara National Reserve. The camp offers luxurious tents, guided safari tours and cultural experiences.",
+      "image_url": "https://images.pexels.com/photos/5715383/pexels-photo-5715383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "activities": ["safari tours", "cultural experiences"],
+      "facilities": [
+        "restrooms",
+        "picnic tables",
+        "fire pits",
+        "restaurant",
+        "bar"
+      ],
+      "price_per_night": 10000,
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "name": "Eagle View Campsite",
+      "location": "Nairobi",
+      "description": "Nestled on the slopes of Ngong Hills, Eagle View Campsite offers breathtaking views of Nairobi and a serene atmosphere for camping.",
+      "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/fe/84/b2/double-tent-room.jpg?w=1400&h=-1&s=1",
+      "activities": ["hiking", "bird watching"],
+      "facilities": ["restrooms", "picnic tables", "fire pits"],
+      "price_per_night": 3000,
+      "rating": 4.4
+    },
+    {
+      "id": 8,
+      "name": "Oloiden Campsite",
+      "location": "Naivasha",
+      "description": "Nestled on the shores of Lake Oloiden, Oloiden Campsite offers stunning views of the lake and surrounding landscapes. The campsite features camping sites, cottages, and bandas, and activities like fishing, birdwatching, and boat rides are available.",
+      "image_url": "http://oloidencamp.com/wp-content/uploads/2014/05/campsite-7.jpg",
+      "activities": ["fishing", "birdwatching", "boat rides"],
+      "facilities": ["restaurant", "bar", "swimming pool"],
+      "price_per_night": 1800,
+      "rating": 4.1
+    },
+    {
+      "id": 9,
+      "name": "Campi ya Kanzi",
+      "location": "Makueni",
+      "description": "A luxury tented campsite located on the slopes of Mount Kilimanjaro, offering guided nature walks, game drives, and cultural visits to the local Maasai community.",
+      "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/8f/bb/a5/tembo-house-lounge.jpg?w=1800&h=-1&s=1",
+      "price_per_night": 20000,
+      "rating": 4.7
+    }
+  ]
 }
