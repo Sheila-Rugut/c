@@ -25,6 +25,9 @@
   font-size: 20px;
   font-weight: 100px;
 }
+.hero-content h1{
+ font-family: poppins;
+}
 .hero-content button {
   background-color: rgb(12, 113, 113);
   color: #fff;
@@ -58,7 +61,7 @@
   border-radius: 5px;
   overflow: hidden;
   width: 300px;
-  height: 400px;
+  height: 450px;
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -135,3 +138,63 @@ color: black;
   background-color: whitesmoke;
   color: black;
 } */
+.reviews-section {
+  background-color: #fff;
+  overflow: hidden;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; */
+
+}
+.reviews-card__name {
+  color:  rgba(95, 25, 25, 0.573);
+  text-transform: uppercase;
+}
+.reviews-card__title{
+  font-size: 15px;
+  color: black;
+  font-family: poppins;
+}
+ .person-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+.review-card__text{
+margin-right: 350px;
+margin-left: 350px;
+}
+/* button {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .prev {
+    margin-right: 1rem;
+  }
+  .next {
+    margin-left: 1rem;
+  } */
+.next{
+  margin-left: 150px;
+  
+}
+.prev{
+  margin-right: 150px;
+ 
+}

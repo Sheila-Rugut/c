@@ -52,8 +52,8 @@ function Home() {
               </h3>
               <p className="destination-card__description">
                 Enjoy a tranquil and scenic camping experience with breathtaking
-                views of Lake Naivasha and stunning sunsets in a serene and peaceful
-                environment.
+                views of Lake Naivasha and stunning sunsets in a serene and
+                peaceful environment.
               </p>
               <button className="destination-card__btn">Learn More</button>
             </div>
@@ -72,7 +72,34 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="featured-gear">
+
+        <div className="reviews-section">
+          <h2 className="section-title">Reviews</h2>
+          <div className="reviews-card">
+            <div>
+              <button className="prev">
+                <i className="fa-solid fa-caret-left"></i>
+              </button>
+              <img
+                className="person-img"
+                src="https://images.pexels.com/photos/8499113/pexels-photo-8499113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Maria Ferguson"
+              />
+              <button className="next">
+                <i className="fa-solid fa-caret-right"></i>
+              </button>
+              <h4 className="reviews-card__name">Maria Ferguson</h4>
+              <p className="reviews-card__title">Office Manager</p>
+              <p className="review-card__text">
+                Camp Haven has been my go-to platform for finding great
+                campgrounds. I've found so many amazing spots that I never would
+                have known about otherwise. The site's easy-to-use search
+                function makes it a breeze to find the perfect camping spot.
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* <div className="featured-gear">
           <h2 className="section-title">Features & Gear</h2>
           <p className="section-description">
             Discover the best camping gear to make your next adventure a
@@ -80,42 +107,6 @@ function Home() {
           </p>
 
           <div className="featured-gear-cards">
-            {/* <div className="feature-card">
-              <img
-                className="feature-card__image"
-                src="feature1.jpg"
-                alt="Feature 1"
-              />
-              <h3 className="feature-card__title">Feature 1</h3>
-              <p className="feature-card__description">
-                Description of Feature 1 goes here
-              </p>
-            </div>
-
-            <div className="feature-card">
-              <img
-                className="feature-card__image"
-                src="feature2.jpg"
-                alt="Feature 2"
-              />
-              <h3 className="feature-card__title">Feature 2</h3>
-              <p className="feature-card__description">
-                Description of Feature 2 goes here
-              </p>
-            </div>
-
-            <div className="feature-card">
-              <img
-                className="feature-card__image"
-                src="feature3.jpg"
-                alt="Feature 3"
-              />
-              <h3 className="feature-card__title">Feature 3</h3>
-              <p className="feature-card__description">
-                Description of Feature 3 goes here
-              </p>
-            </div> */}
-
             <div className="gear-card">
               <img className="gear-card__image" src="gear1.jpg" alt="Gear 1" />
               <h3 className="gear-card__title">Gear 1</h3>
@@ -143,7 +134,7 @@ function Home() {
               <button className="gear-card__btn">Learn More</button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
