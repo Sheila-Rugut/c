@@ -7,12 +7,12 @@ function Campgrounds() {
 
   // get campgrounds from API
   useEffect(() => {
-    fetch(' http://localhost:5000/campgrounds')
+    fetch("https://camp-haven-api.vercel.app/campgrounds")
       .then((response) => response.json())
       .then((data) => {
-        console.log(data)
-        setCampground(data)
-      })
+        console.log(data);
+        setCampground(data);
+      });
   }, [])
   return (
     <div className="destination-container">
